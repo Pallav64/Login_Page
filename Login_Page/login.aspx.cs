@@ -18,7 +18,7 @@ namespace Login_Page
             try
             {
                 string str;
-                str = "Data source=localhost;Database=Pallav;User Id=root; Password=Sonu@2764;";
+                str = "Data source=localhost;Database=Pallav;User Id=root; Password=12345678;";
                 con = new MySqlConnection(str);
                 con.Open();
             }
