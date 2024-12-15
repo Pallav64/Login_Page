@@ -25,7 +25,7 @@ namespace Login_Page
             try
             {
                 
-                    con = new MySqlConnection("Server=localhost;database=pallav; user id=root;password=Sonu@2764;");
+                    con = new MySqlConnection("Server=localhost;database=pallav; user id=root;password=12345678;");
 
                 
             }
@@ -41,7 +41,7 @@ namespace Login_Page
         {
             if (TextBox1.Text == "0000")
             {
-                //con = new MySqlConnection("Server=localhost;database=pallav; user id=root;password=Sonu@2764;");
+                //con = new MySqlConnection("Server=localhost;database=pallav; user id=root;password=12345678;");
                 con.Open();
                 cmd1 = new MySqlCommand("select * from trainee_feedback", con);
                 cmd1.ExecuteNonQuery();
